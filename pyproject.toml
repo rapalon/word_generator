@@ -3,6 +3,8 @@ name = "company-name"
 version = "0.1.0"
 description = "Invented-word generator for brand and company names that sound natural to American English speakers"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [
     { name = "gavrilov" }
 ]

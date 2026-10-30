@@ -1,6 +1,8 @@
 # company-name
 
-**The invented-word generator that named Rapalon.**
+**The invented-word generator that named Rapalon™.**
+
+An open-source project by Rapalon Labs, Inc., released under the [MIT License](LICENSE).
 
 A Python library and command-line tool that invents words that don't exist yet, but sound natural and pleasant to American English speakers. It is built for brand and company names, product names and fantasy worldbuilding: every candidate is pronounceable, is not a real English word, and contains nothing offensive.
 
@@ -41,7 +43,7 @@ flowchart LR
     D --> E["The AI's own pick:<br/><b>Rapalon</b>"]
 ```
 
-The final call was left to the AI as well. From everything that made it through, it chose one word: **Rapalon**. That is how our company got its name.
+The final call was left to the AI as well. From everything that made it through, it chose one word: **Rapalon**. That is how our company, Rapalon Labs, got its name.
 
 This is the audit the tool gives the name today:
 
@@ -416,3 +418,11 @@ uv run pytest
 ```
 
 The 46 tests cover syllable structure, cluster limits, stress placement, spelling, filters, scoring, presets, seed reproducibility, the analyzer and the CLI.
+
+## License
+
+The code is released under the [MIT License](LICENSE). Copyright © 2026 Rapalon Labs, Inc.
+
+## Trademark
+
+Rapalon™ is a trademark of Rapalon Labs, Inc. The MIT License applies to the source code in this repository only. It does not grant permission to use the Rapalon name, logos or other trademarks of Rapalon Labs, Inc., except as reasonably needed to describe the origin of the software.
