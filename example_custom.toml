@@ -1,0 +1,27 @@
+# Top-level options
+cluster_probability = 0.10
+min_length = 4
+max_length = 8
+require_memorability = true
+
+[consonant_weights]
+l = 6.0
+m = 5.0
+n = 4.0
+r = 4.0
+v = 3.0
+b = 2.0
+k = 0.5
+t = 0.5
+p = 0.5
+
+[vowel_weights]
+OW = 5.0
+UW = 4.0
+AA = 3.0
+AX = 3.0
+IY = 2.0
+
+[syllable_distribution]
+2 = 0.70
+3 = 0.30
